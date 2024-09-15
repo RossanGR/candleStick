@@ -12,13 +12,15 @@ Execute `ng test` no seu terminal para rodar os teste unitários via [Karma](htt
 
 ## Passo a Passo seguido para o desenvolvimento
 
-1 - Configurar o ambiente 
-2 - Instalar a biblioteca
-3 - Criar componente de gráfico
-4 - Criar a interface/classe que vai ser mocado
-5 - Passar o Mock para dentro do Gráfico
-6 - Fazer o Gráfico atualizar com os dados gerados em tempo real
-7 - Gerar a service que vai consultar esse mock
-8 - Emitir os dados acessados na service
-9 - Gerar os dados de forma aleatória
-10 - Fazer os teste unitários  
+<ol>
+<li>Configurar o ambiente </li>
+<li>Instalar a biblioteca</li>
+<li>Criar componente de gráfico</li>
+<li>Criar a interface/classe que vai ser mocado</li>
+<li>Passar o Mock para dentro do Gráfico</li>
+<li>Fazer o Gráfico atualizar com os dados gerados em tempo real</li>
+<li>Gerar a service que vai consultar esse mock</li>
+<li>Emitir os dados acessados na service</li>
+<li>Gerar os dados de forma aleatória</li>
+<li>Fazer os teste unitários</li>
+</ol>
