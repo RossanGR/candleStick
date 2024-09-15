@@ -2,6 +2,9 @@
 
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 18.2.4.
 
+## Aplicação
+[CandleStick](https://candle-stick.vercel.app)
+
 ## Ambiente de desenvolvimento
 
 Para rodar o projeto no seu ambiente local, clone na sua máquina e execute `ng serve` no terminal para um ambiente de dev. Vá até `http://localhost:4200/`.
@@ -14,7 +17,7 @@ Execute `ng test` no seu terminal para rodar os teste unitários via [Karma](htt
 
 <ol>
 <li>Configurar o ambiente </li>
-<li>Instalar a biblioteca</li>
+<li>Instalar a biblioteca <strong>Lightweight Charts</strong></li>
 <li>Criar componente de gráfico</li>
 <li>Criar a interface/classe que vai ser mocado</li>
 <li>Passar o Mock para dentro do Gráfico</li>
