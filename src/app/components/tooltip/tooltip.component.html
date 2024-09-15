@@ -1,0 +1,7 @@
+<div class="tooltip" [ngStyle]="{ top: tooltipData?.tooltipTop + 'px', left: tooltipData?.tooltipLeft + 'px' }">
+  <p>Data: <strong>{{tooltipData?.tooltipContent?.time}}</strong></p>
+  <p>Fechamento: <strong>{{tooltipData?.tooltipContent?.close}}</strong></p>
+  <p>Abertura: <strong>{{tooltipData?.tooltipContent?.open}}</strong></p>
+  <p>Máxima: <strong>{{tooltipData?.tooltipContent?.high}}</strong></p>
+  <p>Mínimo: <strong>{{tooltipData?.tooltipContent?.low}}</strong></p>
+</div>

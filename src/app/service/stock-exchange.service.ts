@@ -44,7 +44,6 @@ export class StockExchangeService {
     },1000)
    }
   createNewData(){
-    console.log('DATA', Date.now())
     const newData:IStockExchange = {
       time: new Date().getTime()/1000,
       open: parseFloat((Math.random() * 150).toFixed(2)),

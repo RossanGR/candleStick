@@ -1,7 +1,6 @@
-<p>candle-stick works!</p>
+
 <div class="chart" #chart></div>
-@if(tooltipVisible){
-  <div class="tooltip" [ngStyle]="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-    <div [innerHTML]="tooltipContent"></div>
-  </div>
+
+@if( this.tooltipData.tooltipVisible){
+  <app-tooltip [tooltipData]="tooltipData"/>
 }

@@ -13,9 +13,8 @@ import { IStockExchange } from './models/IStockExchange';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit  {
-  title = 'candleStick';
-  private stockExchangeService = inject(StockExchangeService);
-  data: IStockExchange[] = [];
+   private stockExchangeService = inject(StockExchangeService);
+   data: IStockExchange[] = [];
   ngOnInit(){
     this.stockExchangeService.getStockPrices().subscribe(stock => {this.data = [...stock]});
   }
